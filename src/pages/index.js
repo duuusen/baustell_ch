@@ -1,20 +1,26 @@
 import * as React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = ({ data }) => {
-  console.log(data)
+  const profiles = data.allMarkdownRemark.nodes
 
 return (
   <Layout>
     <Seo title="Home" />
-    <p>hallo fabiLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor elit sed nunc molestie auctor. Morbi congue bibendum arcu, ac convallis ante viverra ac. Aliquam pulvinar, lectus non aliquam efficitur, lorem ante commodo ante, ac tincidunt mauris nulla et nisl. Donec iaculis maximus elit eu ultricies. Cras finibus gravida facilisis. In lobortis sollicitudin rhoncus. Integer condimentum, libero eu molestie cursus, dui nunc dignissim nulla, ac bibendum massa sem a mi. Aenean vehicula gravida nibh a aliquet.</p>
-    
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-    </p>
+    <div>
+      {profiles.map(profile => (
+          <div key={profile.id}>
+            <h2>{profile.frontmatter.name}</h2>
+            <h3>{profile.frontmatter.description}</h3>
+            <section dangerouslySetInnerHTML={{ __html: profile.html }} />
+            <a href={profile.frontmatter.url}>Website</a>
+            <a href={profile.frontmatter.email}>Contact</a>
+          </div>
+      ))}
+    </div>
   </Layout>
 )
 }
@@ -27,7 +33,8 @@ export const query = graphql`
       nodes {
         frontmatter {
           description
-          link
+          email
+          url
           name
         }
         html
