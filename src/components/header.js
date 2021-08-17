@@ -1,35 +1,36 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import React, { useState } from "react";
+import { useSpring, animated } from "react-spring";
+import { StaticImage } from "gatsby-plugin-image"
 
-const Header = ({ siteTitle }) => (
-  <header
+const Header = () => {
+  const [key, setKey] = useState(1);
 
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+    const scrolling = useSpring({
+      from: { transform: "translate(0%,0)" },
+      to: { transform: "translate(-20%,0)" },
+      config: { duration: 10000 },
+      reset: true,
+      //reverse: key % 2 == 0,
+      onRest: () => {
+        setKey(key + 1);
+      }
+    });
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
+  return (
+    <header>
+        <div key={key}>
+          <animated.div style={scrolling}>
+            <StaticImage
+                src="../images/baustell-banner-lang.jpg"
+                alt="baustell.ch Logo"
+                placeholder="blurred"
+                layout="fixed"
+                height={100}
+            />
+          </animated.div>
+        </div>
+    </header>
+  );
+};
 
 export default Header
