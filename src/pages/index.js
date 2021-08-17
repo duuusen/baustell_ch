@@ -15,7 +15,6 @@ const IndexPage = ({ data }) => {
       <section className="wrap">
       <Fade bottom distance={'50px'}>
         {profiles.map(profile => (
-          
             <div className="tile" key={profile.id}>
               <h2>{profile.frontmatter.name}</h2>
               <h3>{profile.frontmatter.description}</h3>
@@ -23,7 +22,6 @@ const IndexPage = ({ data }) => {
               <a href={profile.frontmatter.url}>Website</a>
               <a href={profile.frontmatter.email}>Contact</a>
             </div>
-          
         ))}
         </Fade>
       </section>

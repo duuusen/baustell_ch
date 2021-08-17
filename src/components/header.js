@@ -1,25 +1,11 @@
-import React, { useState } from "react";
-import { useSpring, animated } from "react-spring";
+import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import Marquee from "react-fast-marquee";
 
-const Header = () => {
-  const [key, setKey] = useState(1);
-
-    const scrolling = useSpring({
-      from: { transform: "translate(0%,0)" },
-      to: { transform: "translate(-20%,0)" },
-      config: { duration: 10000 },
-      reset: true,
-      //reverse: key % 2 == 0,
-      onRest: () => {
-        setKey(key + 1);
-      }
-    });
-
-  return (
+const Header = () => (
     <header>
-        <div key={key}>
-          <animated.div style={scrolling}>
+        <div>
+          <Marquee gradient={false}>
             <StaticImage
                 src="../images/baustell-banner-lang.jpg"
                 alt="baustell.ch Logo"
@@ -27,10 +13,31 @@ const Header = () => {
                 layout="fixed"
                 height={100}
             />
-          </animated.div>
+            <StaticImage
+                src="../images/baustell-banner-lang.jpg"
+                alt="baustell.ch Logo"
+                placeholder="blurred"
+                layout="fixed"
+                height={100}
+            />
+            <StaticImage
+                src="../images/baustell-banner-lang.jpg"
+                alt="baustell.ch Logo"
+                placeholder="blurred"
+                layout="fixed"
+                height={100}
+            />
+            <StaticImage
+                src="../images/baustell-banner-lang.jpg"
+                alt="baustell.ch Logo"
+                placeholder="blurred"
+                layout="fixed"
+                height={100}
+            />
+            </Marquee>
+          {/* </animated.div> */}
         </div>
     </header>
   );
-};
 
 export default Header
