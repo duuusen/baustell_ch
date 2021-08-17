@@ -7,3 +7,9 @@ email: d@duy.ch
 ![](./img/test.jpg)
 
 Duy Bui (b. 1994) works in installation, photography, film and fictional media. He loves to wander and wonder; always restless in the now, he seeks the in-between and far beyond. His optimism comes from his friends and the stories they tell together.
+
+<ul class="tags">
+    <li>Design Research</li>
+    <li>Webdesign & Development</li>
+    <li>Photography</li>
+</ul>
