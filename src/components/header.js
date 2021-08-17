@@ -1,42 +1,43 @@
 import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+import Marquee from "react-fast-marquee";
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
+const Header = () => (
+    <header>
+        <div>
+          <Marquee gradient={false}>
+            <StaticImage
+                src="../images/baustell-banner-lang.jpg"
+                alt="baustell.ch Logo"
+                placeholder="blurred"
+                layout="fixed"
+                height={100}
+            />
+            <StaticImage
+                src="../images/baustell-banner-lang.jpg"
+                alt="baustell.ch Logo"
+                placeholder="blurred"
+                layout="fixed"
+                height={100}
+            />
+            <StaticImage
+                src="../images/baustell-banner-lang.jpg"
+                alt="baustell.ch Logo"
+                placeholder="blurred"
+                layout="fixed"
+                height={100}
+            />
+            <StaticImage
+                src="../images/baustell-banner-lang.jpg"
+                alt="baustell.ch Logo"
+                placeholder="blurred"
+                layout="fixed"
+                height={100}
+            />
+            </Marquee>
+          {/* </animated.div> */}
+        </div>
+    </header>
+  );
 
 export default Header
