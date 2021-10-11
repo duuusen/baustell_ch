@@ -11,21 +11,21 @@ const Header = () => (
                 alt="baustell.ch Logo"
                 placeholder="blurred"
                 layout="fixed"
-                height={100}
+                height={200}
             />
             <StaticImage
                 src="../images/baustell-banner-lang.jpg"
                 alt="baustell.ch Logo"
                 placeholder="blurred"
                 layout="fixed"
-                height={100}
+                height={200}
             />
             <StaticImage
                 src="../images/baustell-banner-lang.jpg"
                 alt="baustell.ch Logo"
                 placeholder="blurred"
                 layout="fixed"
-                height={100}
+                height={200}
             />
             <StaticImage
                 src="../images/baustell-banner-lang.jpg"
@@ -35,7 +35,6 @@ const Header = () => (
                 height={100}
             />
             </Marquee>
-          {/* </animated.div> */}
         </div>
     </header>
   );

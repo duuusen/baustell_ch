@@ -2,6 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./global.css"
 import "./layout.css"
 
@@ -17,13 +18,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          <p>© {new Date().getFullYear()}, the authors and baustell.ch</p>
-        </footer>
+        <Footer />
       </div>
     </>
   )
