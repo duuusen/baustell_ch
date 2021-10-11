@@ -36,12 +36,17 @@
   background-color: #ED1C24;
   color: white;
 }
-.style-red .contact, .style-red .website, .style-yellow .website {
+.style-red .contact, .style-red .website, .style-yellow .website, .style-green .website, .style-blue .website{
   display: none;
   visibility: hidden;
 }
 .style-white{
   background-color: #FFFFFF;
+}
+
+.style-green{
+  background-color: #099E18;
+  border-radius: 200px;
 }
 
 .style-blue{
