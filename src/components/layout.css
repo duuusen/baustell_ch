@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-.intro {
-  max-width: 50vw;
-  margin: 20rem auto;
-}
-.profile-tiles {
-=======
 @import "fonts.css";
 
 .wrap {
->>>>>>> a9baa1fc146fa9329dfcbf08fb0ceece628c2ea0
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   gap: 2.5rem;
@@ -46,11 +38,14 @@
   opacity: 1;
 }
 
-.style-red{
+.style-red {
   background-color: #ED1C24;
   color: white;
 }
-
+.style-red .contact-details, .style-yellow .contact-details {
+  display: none;
+  visibility: hidden;
+}
 .style-white{
   background-color: #FFFFFF;
 }

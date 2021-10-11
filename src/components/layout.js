@@ -19,9 +19,6 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-<<<<<<< HEAD
-        <Footer />
-=======
         <footer
           style={{
             marginTop: `2rem`,
@@ -29,7 +26,6 @@ const Layout = ({ children }) => {
         >
           <p>© {new Date().getFullYear()}, the authors and Verein & Atelier Baustell <br></br> Bäckerstrasse 9, 8004 Zürich, Switzerland</p>
         </footer>
->>>>>>> a9baa1fc146fa9329dfcbf08fb0ceece628c2ea0
       </div>
     </>
   )
