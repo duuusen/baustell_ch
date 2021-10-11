@@ -2,6 +2,8 @@
 name: Colin Schmid
 description:
 link:
+position: b
+style: style-white
 ---
 <!-- Description here. Not too much text plsz. -->
 

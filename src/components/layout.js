@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import Header from "./header"
 import "./global.css"
 import "./layout.css"
+import "./fonts.css"
 
 const Layout = ({ children }) => {
   return (
@@ -22,7 +23,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          <p>© {new Date().getFullYear()}, the authors and baustell.ch</p>
+          <p>© {new Date().getFullYear()}, the authors and Verein & Atelier Baustell <br></br> Bäckerstrasse 9, 8004 Zürich, Switzerland</p>
         </footer>
       </div>
     </>

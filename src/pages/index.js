@@ -4,6 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import SignUP from "../components/signup"
 
 const IndexPage = ({ data }) => {
   const profiles = data.allMarkdownRemark.nodes
@@ -11,16 +12,17 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
+      <SignUP></SignUP>
       <Seo title="Home" />
       <section className="wrap">
-      <Fade bottom distance={'50px'}>
+      <Fade bottom distance={'10px'}>
         {profiles.map(profile => (
-            <div className="tile" key={profile.id}>
+            <div className={`tile ${profile.frontmatter.style}`} key={profile.id}>
               <h2>{profile.frontmatter.name}</h2>
               <h3>{profile.frontmatter.description}</h3>
               <div dangerouslySetInnerHTML={{ __html: profile.html }} />
-              <a href={profile.frontmatter.url}>Website</a>
-              <a href={profile.frontmatter.email}>Contact</a>
+              <a href={profile.frontmatter.url}>Website →<br></br></a>
+              <a href={profile.frontmatter.email}>Contact →</a>
             </div>
         ))}
         </Fade>
@@ -34,13 +36,15 @@ export default IndexPage
 
 export const query = graphql`
   {
-    allMarkdownRemark(sort: {fields: frontmatter___name, order: ASC}) {
+    allMarkdownRemark(sort: {fields: frontmatter___position, order: ASC}) {
       nodes {
         frontmatter {
           description
           email
           url
           name
+          position
+          style
         }
         html
         id

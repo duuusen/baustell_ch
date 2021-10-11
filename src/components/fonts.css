@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Akkurat;
+    src: url('../content/fonts/AkkuratStd-Bold.otf') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: Akkurat;
+    src: url('../content/fonts/AkkuratStd-BoldItalic.otf') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+  }
+
+@font-face {
+    font-family: Akkurat;
+    src: url('../content/fonts/AkkuratStd-Regular.otf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+    font-family: Akkurat;
+    src: url('../content/fonts/AkkuratStd-Italic.otf') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: Asfalt;
+    src: url('../content/fonts/ABCAsfalt-Regular-Trial.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
