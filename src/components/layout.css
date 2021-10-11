@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-.intro {
-  max-width: 50vw;
-  margin: 20rem auto;
-}
-.profile-tiles {
-=======
 @import "fonts.css";
 
 .wrap {
->>>>>>> a9baa1fc146fa9329dfcbf08fb0ceece628c2ea0
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   gap: 2.5rem;
