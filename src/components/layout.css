@@ -38,11 +38,14 @@
   opacity: 1;
 }
 
-.style-red{
+.style-red {
   background-color: #ED1C24;
   color: white;
 }
-
+.style-red .contact-details, .style-yellow .contact-details {
+  display: none;
+  visibility: hidden;
+}
 .style-white{
   background-color: #FFFFFF;
 }
