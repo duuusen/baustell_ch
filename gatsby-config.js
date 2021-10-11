@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `baustell.ch`,
-    description: 'Ateliergemeinschaft baustell.ch', 
+    title: `Verein & Atelier Baustell`,
+    description: 'Baustell is a creative space in the heart of Zurich. A shared space to create, publish and network.', 
     author: 'baustell.ch, Duy Bui',
     siteUrl: `https://www.baustell.ch`,
   },
@@ -19,6 +19,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
+        icon: `images/b-icon.png`
       },
     },
     {
