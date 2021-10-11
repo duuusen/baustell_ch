@@ -1,0 +1,13 @@
+.blaurund{
+    background: rgb(131,58,180);
+background: linear-gradient(131deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 39%, rgba(252,176,69,1) 100%);
+    color: white;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 100;
+    padding: 1rem;
+    border-radius: 100px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}

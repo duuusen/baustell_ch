@@ -1,7 +1,8 @@
 ---
 name: Colin Schmid
 description:
-link:
+url:
+email:
 position: b
 style: style-white
 ---

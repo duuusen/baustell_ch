@@ -1,7 +1,8 @@
 ---
 name: Leda Fluri
 description:
-link:
+url:
+email:
 position: b
 style: style-white
 ---

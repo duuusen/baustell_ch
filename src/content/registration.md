@@ -1,9 +1,9 @@
 ---
 name: Looking for an Atelierspace?
 description:
-link: hallo
-position: c
+email: mailto:hoi@baustell.ch
+position: b
 style: style-yellow
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae quam quis justo dapibus blandit. Nullam ac commodo justo. Integer lobortis ultricies cursus. Donec varius malesuada sodales. Nulla luctus a nunc a malesuada. Sed accumsan, sem vel varius volutpat, mi mi aliquam enim, in rutrum mi ex eget erat.
+Sporadically we have new spaces available in our atelier. Additionally we are looking for a bigger atelier sometime next year with lots of room for new people.

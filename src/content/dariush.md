@@ -1,7 +1,8 @@
 ---
 name: Dariush Mehdiaraghi
 description:
-link:
+url:
+email:
 position: b
 style: style-white
 ---

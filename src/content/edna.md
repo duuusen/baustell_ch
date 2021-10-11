@@ -1,7 +1,8 @@
 ---
 name: Edna Hirsbrunner
 description:
-link:
+url:
+email:
 position: b
 style: style-white
 ---

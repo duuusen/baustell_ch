@@ -1,7 +1,8 @@
 ---
 name: Sophie Anderhub
 description:
-link: hallo
+url:
+email:
 position: b
 style: style-white
 ---
