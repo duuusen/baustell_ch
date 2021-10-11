@@ -1,7 +1,5 @@
 ---
 name: Verein & Atelier Baustell
-description:
-link:
 position: a
 style: style-red
 ---
