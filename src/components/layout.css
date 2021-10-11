@@ -42,7 +42,7 @@
   background-color: #ED1C24;
   color: white;
 }
-.style-red .contact-details, .style-yellow .contact-details {
+.style-red .contact, .style-red .website, .style-yellow .website {
   display: none;
   visibility: hidden;
 }

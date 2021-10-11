@@ -21,10 +21,8 @@ const IndexPage = ({ data }) => {
               <h2>{profile.frontmatter.name}</h2>
               <h3>{profile.frontmatter.description}</h3>
               <div dangerouslySetInnerHTML={{ __html: profile.html }} />
-              <div className="contact-details">
-                <a href={profile.frontmatter.url}>Website →<br></br></a>
-                <a href={profile.frontmatter.email}>Contact →</a>
-              </div>
+                <a className="website" href={profile.frontmatter.url}>Website →<br></br></a>
+                <a className="contact" href={profile.frontmatter.email}>Contact →</a>
             </div>
         ))}
         </Fade>
