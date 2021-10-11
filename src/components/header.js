@@ -37,7 +37,6 @@ const Header = () => (
                 height={200}
             />
             </Marquee>
-          {/* </animated.div> */}
         </div>
     </header>
   );

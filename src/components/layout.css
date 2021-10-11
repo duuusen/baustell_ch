@@ -32,11 +32,14 @@
   opacity: 1;
 }
 
-.style-red{
+.style-red {
   background-color: #ED1C24;
   color: white;
 }
-
+.style-red .contact, .style-red .website, .style-yellow .website {
+  display: none;
+  visibility: hidden;
+}
 .style-white{
   background-color: #FFFFFF;
 }
