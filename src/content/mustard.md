@@ -1,7 +1,7 @@
 ---
 name: Baustell Mustard
 description: Preregister Now!
-email: mailto:hoi@baustell.ch
+email: hoi@baustell.ch
 position: b
 style: style-blue
 ---
