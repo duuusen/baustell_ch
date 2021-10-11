@@ -36,7 +36,7 @@
   background-color: #ED1C24;
   color: white;
 }
-.style-red .contact, .style-red .website, .style-yellow .website, .style-green .website, .style-blue .website{
+.style-red .website, .style-yellow .website, .style-green .website, .style-blue .website{
   display: none;
   visibility: hidden;
 }
@@ -57,7 +57,6 @@
 .style-yellow{
   background-color: #F8C923;
   color: black;
-  border-radius: 500px;
   -webkit-transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);;
 }

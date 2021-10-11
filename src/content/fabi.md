@@ -6,5 +6,4 @@ email: hello@fabi.design
 position: b
 style: style-white
 ---
-<!-- Description here. Not too much text plsz. -->
-Ich interessiere mich für die Momente bei welchen Ideen, Wünsche und Konzepte der Zukunft auf die Gegenwart treffen. Wie leben wir zusammen, gestalten gemeinsam Stadt oder wie können globale Zusammenhänge fassbar gemacht werden.
+Fabian is an intedisciplinary designer and researcher focusing on the moments where ideas, wishes and concept of the future meet the present. How do we live together, shape the city together, or how can global connections be made tangible?
