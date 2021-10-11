@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import SignUP from "../components/signup"
+import Instagram from "../components/instagram"
 
 const IndexPage = ({ data }) => {
   const profiles = data.allMarkdownRemark.nodes
@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <SignUP></SignUP>
+      <Instagram></Instagram>
       <Seo title="Home" />
       <section className="wrap">
       <Fade bottom distance={'10px'}>
