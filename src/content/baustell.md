@@ -1,5 +1,6 @@
 ---
 name: Verein & Atelier Baustell
+description: we build.
 email: hoi@baustell.ch
 position: a
 style: style-red
