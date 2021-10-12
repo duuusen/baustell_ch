@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Marquee from "react-fast-marquee";
 
 import "./fonts.css"
+import "./header.css"
 
 const Header = () => (
     <header>
@@ -13,28 +14,28 @@ const Header = () => (
                 alt="baustell.ch Logo"
                 placeholder="blurred"
                 layout="fixed"
-                height={200}
+                height={180}
             />
             <StaticImage
                 src="../images/headerbau.png"
                 alt="baustell.ch Logo"
                 placeholder="blurred"
                 layout="fixed"
-                height={200}
+                height={180}
             />
             <StaticImage
                 src="../images/headerbau.png"
                 alt="baustell.ch Logo"
                 placeholder="blurred"
                 layout="fixed"
-                height={200}
+                height={180}
             />
             <StaticImage
                 src="../images/headerbau.png"
                 alt="baustell.ch Logo"
                 placeholder="blurred"
                 layout="fixed"
-                height={200}
+                height={180}
             />
             </Marquee>
         </div>
