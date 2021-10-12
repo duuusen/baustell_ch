@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Verein & Atelier Baustell`,
     description: 'Baustell is a creative space in the heart of Zurich. A shared space to create, publish and network.', 
-    author: 'baustell.ch, Duy Bui',
+    author: 'baustell.ch, Duy Bui, Fabian Frey',
     siteUrl: `https://www.baustell.ch`,
   },
   plugins: [
