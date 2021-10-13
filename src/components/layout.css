@@ -53,6 +53,26 @@
   border-radius: 200px;
 }
 
+.style-fabi{
+  background-color: #FFFFFF;
+  border-radius: 0px;
+  -webkit-transition: all 0.4s cubic-bezier(.47,1.64,.41,.6);
+  transition: all 0.4s cubic-bezier(.47,1.64,.41,.6);;
+}
+
+.style-fabi:hover{
+  scale: 1.1;
+  color: black;
+  box-shadow: 0px 0px 120px blue;
+  z-index: 69;
+  border-radius: 200px;
+  font-style: italic;
+  text-shadow: -1px 1px 0px rgba(0,0,0,0.1);
+  background: rgb(131,58,180);
+  background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(153,0,255,1) 10%, rgba(255,254,220,1) 50%, rgba(253,43,43,1) 78%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
+  -webkit-transition: all 0.4s cubic-bezier(.47,1.64,.41,.6);
+  transition: all 0.4s cubic-bezier(.47,1.64,.41,.6);; 
+}
 
 .style-blue{
   background-color: #201CED;
