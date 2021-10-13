@@ -1,11 +1,11 @@
 ---
 name: Dariush Mehdiaraghi
-description:
-url:
-email:
-position: b
+description: Webdeveloper
+url: dariush-m.com
+email: dariush.mehdiaragh[ät]outlook.com
+position: 0
 style: style-hidden
 ---
 <!-- CHANGE STYLE TO: style-white !!! -->
 <!-- Description here. Not too much text plsz. -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae quam quis justo dapibus blandit. Nullam ac commodo justo. Integer lobortis ultricies cursus. Donec varius malesuada sodales. Nulla luctus a nunc a malesuada. Sed accumsan, sem vel varius volutpat, mi mi aliquam enim, in rutrum mi ex eget erat.
+Dariush is a passionate developer that loves to create unusual stuff with code especially if it blinks or makes noise. 
