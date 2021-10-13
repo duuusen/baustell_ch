@@ -46,13 +46,13 @@
 
 .style-hidden{
   display: none;
+  visibility: hidden;
 }
 
 .style-green{
   background-color: #099E18;
   border-radius: 200px;
 }
-
 
 .style-blue{
   background-color: #201CED;
