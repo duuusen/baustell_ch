@@ -1,6 +1,6 @@
 ---
 name: Duy Bui
-description: Interaction Designer and Artist
+description: Design Researcher and Artist
 url: https://duy.ch
 email: d@duy.ch
 position: b
