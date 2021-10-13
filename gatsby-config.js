@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Verein & Atelier Baustell`,
     description: 'Baustell is a creative space in the heart of Zurich. A shared space to create, publish and network.', 
-    author: 'baustell.ch, Duy Bui',
+    author: 'baustell.ch, Duy Bui, Fabian Frey',
     siteUrl: `https://www.baustell.ch`,
   },
   plugins: [
@@ -16,8 +16,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ED1C24`,
+        theme_color: `#ED1C24`,
         display: `minimal-ui`,
         icon: `src/images/b-icon.png`
       },
