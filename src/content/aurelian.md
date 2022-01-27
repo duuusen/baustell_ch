@@ -1,6 +1,6 @@
 ---
 name: alles-negativ
-description: Interaction Design Studio
+description: Design Collective
 url: https://alles-negativ.ch
 email: hello@alles-negativ.ch
 position: b
