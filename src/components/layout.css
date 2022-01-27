@@ -54,6 +54,11 @@
   border-radius: 200px;
 }
 
+.style-black{
+  background-color: #000000;
+  color: white;
+}
+
 .style-fabi{
   background-color: #FFFFFF;
   border-radius: 0px;
