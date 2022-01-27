@@ -1,12 +1,11 @@
 ---
-name: Aurelian Ammonn
-description:
-url:
-email:
+name: alles-negativ
+description: Interaction Design Studio
+url: https://alles-negativ.ch
+email: hello@alles-negativ.ch
 position: b
-style: style-hidden
+style: style-black
 ---
 <!-- CHANGE STYLE TO: style-white !!! -->
 <!-- Description here. Not too much text plsz. -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae quam quis justo dapibus blandit. Nullam ac commodo justo. Integer lobortis ultricies cursus. Donec varius malesuada sodales. Nulla luctus a nunc a malesuada. Sed accumsan, sem vel varius volutpat, mi mi aliquam enim, in rutrum mi ex eget erat.
-
+The collectiv alles-negativ was founded by Carlo Natter and Aurelian Ammon. They try to combine their multidisciplinary interests in design to explore projects from unexpected angles. The connections between the physical and the digital realms is intriguing to them and they try to find approaches to observe and test how the distinction between virtuality and reality is shifting towards each other.
