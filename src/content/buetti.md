@@ -1,11 +1,11 @@
 ---
 name: Andreas Bütler
-description:
-url:
-email:
+description: Interaction Designer
+url: andreasbuetler.ch
+email: info@andreasbuetler.ch
 position: b
-style: style-hidden
+style: style-white
 ---
 <!-- CHANGE STYLE TO: style-white !!! -->
 <!-- Description here. Not too much text plsz. -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae quam quis justo dapibus blandit. Nullam ac commodo justo. Integer lobortis ultricies cursus. Donec varius malesuada sodales. Nulla luctus a nunc a malesuada. Sed accumsan, sem vel varius volutpat, mi mi aliquam enim, in rutrum mi ex eget erat.
+Andreas Bütler is a multidisciplinary designer who strives to create hollistic experiences. He tries to combine the fields of light and movement in space through digital as well as physical solutions.
