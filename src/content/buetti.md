@@ -1,7 +1,7 @@
 ---
 name: Andreas Bütler
 description: Interaction Designer
-url: andreasbuetler.ch
+url: https://andreasbuetler.ch/
 email: info@andreasbuetler.ch
 position: b
 style: style-white
