@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 
 import Header from "./header"
 import Footer from "./footer"
+import IsSomeoneAtBaustell from "./isSomeoneAtBaustell.js"
 import "./global.css"
 import "./layout.css"
 import "./fonts.css"
@@ -11,6 +12,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header/>
+      <IsSomeoneAtBaustell />
       <div
         style={{
           margin: `2rem auto 0`,
