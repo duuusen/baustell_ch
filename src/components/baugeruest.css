@@ -1,0 +1,73 @@
+html{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  body{
+    margin: 0px;
+  }
+  
+  .main-grid{
+    display: grid;
+    grid-template-columns:  10px auto 10px auto 10px auto 10px auto 10px auto 10px;
+  }
+  
+  .metal-vertical{
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #F1F1F1 0%, #B9B9B9 47.92%, #9D9D9D 65.1%, #9D9D9D 90.63%, #797979 100%);
+    border-radius: 2px 2px 0px 0px;
+  }
+  
+  .metal-horizontal{
+    height: 10px;
+    box-sizing: border-box;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), linear-gradient(180deg, #F1F1F1 0%, #B9B9B9 47.92%, #9D9D9D 65.1%, #9D9D9D 90.62%, #797979 100%);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.02); 
+  }
+  
+  .wood-horizontal-yellow{
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    background: linear-gradient(280.56deg, rgba(0, 0, 0, 0.2) -133.1%, rgba(0, 0, 0, 0) 91.59%), #F8C923;
+  }
+  
+  .plate-left{
+    margin-top: 5px;
+    height: 22px;
+    width: 18px;
+    background: linear-gradient(312.98deg, #A4A4A4 0%, #DDDDDD 96.71%);
+  }
+  
+  .plate-right{
+    right: 0px;
+    margin-top: 5px;
+    height: 22px;
+    width: 18px;
+    background: linear-gradient(312.98deg, #A4A4A4 0%, #DDDDDD 96.71%);
+  }
+  
+  #vertical-eins{
+    grid-column-start: 1 / span 1;
+  }
+  
+  #vertical-zwei{
+    grid-column-start: 3 / span 1;
+  }
+  
+  #vertical-drei{
+    grid-column-start: 5 / span 1;
+  }
+  
+  #vertical-vier{
+    grid-column-start: 7 / span 1;
+  }
+  
+  #vertical-funf{
+    grid-column-start: 9 / span 1;
+  }
+  
+  #testy{
+    height: 2000px;
+  }
