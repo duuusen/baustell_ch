@@ -71,3 +71,8 @@ html{
   #testy{
     height: 2000px;
   }
+
+  .baustell-logo{
+      height: 120px;
+      background-color: #ED1C24;
+  }
