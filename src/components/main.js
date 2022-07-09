@@ -22,8 +22,6 @@ const Main = () => {
 		<div>
 			<div style={{height: '15px'}}></div>
       <div class="baustell-logo">
-        <img src="../images/Logo Transparent Black.svg">
-        </img>
       </div>
       <div style={{height: '15px'}}></div>
 			<div class="metal-horizontal"></div>
@@ -41,6 +39,9 @@ const Main = () => {
 			<div class="wood-horizontal-yellow">
 				<div class="plate-left"></div>
 				<div class="plate-right"></div>
+			</div>
+			<div className="board">
+				hallo
 			</div>
 		</div>
 		<div id="vertical-vier" class="metal-vertical"></div>

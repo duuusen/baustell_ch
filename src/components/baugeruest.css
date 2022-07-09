@@ -75,4 +75,16 @@ html{
   .baustell-logo{
       height: 120px;
       background-color: #ED1C24;
+      width: auto;
+  }
+
+  .baustell-png{
+    justify-self: center;
+    align-self: center;
+  }
+
+  .board{
+    margin-top: 10px;
+    height: 200px;
+    background: linear-gradient(348.75deg, rgba(0, 0, 0, 0.2) -98.39%, rgba(0, 0, 0, 0) 59.31%, rgba(0, 0, 0, 0) 59.31%), #EDE9E4;
   }
