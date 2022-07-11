@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          <p>© {new Date().getFullYear()}, the authors and Verein & Atelier Baustell <br></br> Bäckerstrasse 9, 8004 Zürich, Switzerland</p>
+          <p>© {new Date().getFullYear()}, the authors and Verein & Atelier Baustell <br></br> Hardgutstrasse 7, 8048 Zürich, Switzerland</p>
         </footer>
       </div>
     </>
